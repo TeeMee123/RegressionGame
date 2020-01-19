@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox minHeight="440.0" minWidth="600.0"  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="top_bar" minHeight="40.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="/res/header.png" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Pane>
+      <StackPane fx:id="pane" minHeight="400.0" minWidth="600.0" alignment="CENTER">
+         <Pane>
+            <effect>
+               <ImageInput>
+                  <source>
+                     <Image url="/res/wackground 2.png" />
+                  </source>
+               </ImageInput>
+            </effect>
+         </Pane>
+         <!--<children>
+            <Canvas fx:id="canvas" height="400.0" width="400.0" StackPane.alignment="CENTER">
+               <effect>
+                  <ColorInput paint="#ff00ea" />
+               </effect>
+            </Canvas>
+         </children>-->
+      </StackPane>
+   </children>
+</VBox>
